@@ -386,10 +386,10 @@ section.social-section{
 
 
 .service-align{
-    display: flex;
+   
 }
 .service-last{
-    flex: 1;
+    
     align-self: flex-end;
 }
 
