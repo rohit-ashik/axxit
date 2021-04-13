@@ -517,3 +517,182 @@ section.social-section{
 .for-m{
     margin-right: 100px;
 }
+
+.stylish-content{
+
+}
+.stylish-section{
+    
+    background-image: url(../images/stylish-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 320px;
+    
+    margin-bottom: 80px;
+}
+.stylish-content{
+    
+    height: 320px;
+    
+    width: 100%;
+    
+    text-align: center;
+    box-sizing: border-box;
+
+   
+
+}
+.stylish-content h2{
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif !important;
+    color: #ffffff;
+    text-align: center;
+}
+
+.stylish-content p{
+    font-family: 'Raleway', sans-serif !important;
+color: #ffffff;
+font-size: 14px;
+font-weight: 300;
+}
+.stylish-content button{
+    border-radius: 0;
+    border: 2px solid white;
+    margin-top: 10px;
+    padding: 10px 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+.horizontal-design-3{
+    height: 2px;
+    width: 75px;
+    background-color:#ffffff;
+}
+
+
+
+.contact-us{
+    padding: 50px 0px 90px 0px;
+    
+}
+.header-contact {
+    text-align: center;
+}
+.header-contact h2{
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+
+
+.header-contact  p{
+font-family: 'Open Sans', sans-serif;
+color: #949494;
+font-size: 14px;
+
+}
+
+.contact-left input{
+    margin-bottom: 22px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.contact-left input:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.msg-btn {
+    text-align: center;
+    width: 100%;
+}
+
+.msg-btn button{
+    display: block;
+}
+
+.contact-right textarea{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.contact-right textarea:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.header-contact button{
+    background-color: #FF8B38;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.header-contact button:hover{
+    background-color: #333333;
+}
+
+.header-contact input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.header-contact textarea::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.footer-section{
+    background-color: black;
+}
+.menus-footer{
+
+}
+.menus-footer{
+    
+}
+.footer-social-menus{
+    text-align: center;
+    padding: 10px 0px;
+}
+.footer-social-menus p{
+    color: rgb(180, 180, 180);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.menus-footer ul li{
+    
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    
+}
+.menus-footer ul li a i{
+    padding: 8px 16px 0px 16px;
+    color: #CCCCCC;
+    font-size: 24px;
+    
+    
+}
+
+.menus-footer ul li a i:hover{
+    transition: all .3s ease;
+    color: #da7a35;
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+}
